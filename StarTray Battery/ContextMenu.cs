@@ -12,7 +12,7 @@ namespace StarTray_Battery
             // Create the context menu for the icon
             contextMenu = new ContextMenu();
 
-            contextMenu.MenuItems.Add(new MenuItem("StarTray Battery") { Enabled = false });
+            contextMenu.MenuItems.Add(new MenuItem($"{AppLabel}") { Enabled = false });
             contextMenu.MenuItems.Add("-");
 
             MenuItem colorModes = new MenuItem("Change Theme");
@@ -40,7 +40,7 @@ namespace StarTray_Battery
             MenuItem generateReport = new MenuItem("Generate battery report");
             generateReport.Click += GenerateReport_Click;
             settings.MenuItems.Add(generateReport);
-            settings.MenuItems.Add(new MenuItem("v1.2 © justinnas") { Enabled = false });
+            settings.MenuItems.Add(new MenuItem($"{VersionLabel} {CopyrightLabel}") { Enabled = false });
 
             contextMenu.MenuItems.Add(settings);
 

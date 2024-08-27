@@ -12,26 +12,35 @@ namespace StarTray_Battery
 {
     public partial class StarTray_Battery : Form
     {
-        private static NotifyIcon notifyIcon;
-        private static ContextMenu contextMenu;
-        private int currentBatteryPercentage = 0;
-        private string resourcesFolder = Path.Combine(Application.StartupPath, "Resources");
+        private string AppLabel = "StarTray Battery";
+        private string VersionLabel = "v1.2";
+        private string CopyrightLabel = "© justinnas";
 
+        // --==+
+
+        private int currentBatteryPercentage = 0;
+        private bool isCharging = false;
+
+        // -=+
+
+        private string resourcesFolder = Path.Combine(Application.StartupPath, "Resources");
         private string colorMode = "light";
         private Color batteryColor = Color.White;
         private string batteryIconPath;
         private string batteryChargeIconPath;
-        private string currentBatteryIconPath;
         private Image batteryIcon = null;
+        FontFamily customFontFamily = FontFamily.GenericSansSerif;
 
-        private bool isCharging = false;
+        // +=--
 
+        private static NotifyIcon notifyIcon;
+        private static ContextMenu contextMenu;
         private MenuItem startupMenuItem;
+
+        // -==+
 
         private TaskService taskService = new TaskService();
         private const string TaskName = "StarTrayBattery_RunOnStartup";
-
-        FontFamily customFontFamily = FontFamily.GenericSansSerif;
 
         public StarTray_Battery()
         {
@@ -133,16 +142,13 @@ namespace StarTray_Battery
         {
             if (isCharging)
             {
-                currentBatteryIconPath = batteryChargeIconPath;
+                batteryIcon = Image.FromFile(batteryChargeIconPath);
             }
             else
             {
-                currentBatteryIconPath = batteryIconPath;
+                batteryIcon = Image.FromFile(batteryIconPath);
             }
-
-            batteryIcon = Image.FromFile(currentBatteryIconPath);
         }
-
 
         private void HandlePowerModeChanged(object sender, EventArgs e)
         {
