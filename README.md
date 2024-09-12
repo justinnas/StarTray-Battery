@@ -72,10 +72,10 @@ If you prefer, you can review the source code and compile the application yourse
 
 ## License
 
-This project uses the following libraries: (soon).
+This project uses the following libraries: System.ValueTuple (MIT License), Microsoft.Toolkit.Uwp.Notifications (MIT License), TaskScheduler (MIT License).
 
 This project uses the Open Sans font, designed by Steve Matteson, licensed under SIL Open Font License, Version 1.1.
 
-Their respective license files can be found [here]().
+Their respective license files can be found [here](https://github.com/justinnas/StarTray-Battery/tree/main/Licenses).
 
 StarTray Battery is licensed under GNU General Public License v3.0 license, please see the [license file](https://github.com/justinnas/StarTray-Battery/blob/main/LICENSE.txt) for more details.
