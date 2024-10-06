@@ -10,11 +10,18 @@
 
 **Supports**: Windows 10 and Windows 11 64-bit (x64) operating systems.
 
-**Developed and designed by** [@justinnas](https://github.com/justinnas)
+**Designed and developed by** [@justinnas](https://github.com/justinnas)
 
 <br>
 
 ## Download
+<div>
+  <a href="https://github.com/justinnas/StarTray-Battery/releases/download/v1.2/StarTray-Battery-Setup.exe">
+    <img src="https://github.com/user-attachments/assets/553047bd-3e99-492f-831c-1a580dadea76" alt="Download button" height="80">
+  </a>
+</div>
+
+<br>
 
 You can download the latest version of StarTray Battery from [GitHub Releases](https://github.com/justinnas/StarTray-Battery/releases). Scroll down to 'Assets' section and choose between the installer or the portable version based on your preference.
 
