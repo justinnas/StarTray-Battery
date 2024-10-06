@@ -16,14 +16,11 @@
 
 ## Download
 
-Soon!
-<!-- You can download the latest version of StarTray Battery from [GitHub Releases](). Scroll down to 'Assets' section and choose between the installer or the portable version based on your preference.
+You can download the latest version of StarTray Battery from [GitHub Releases](https://github.com/justinnas/StarTray-Battery/releases). Scroll down to 'Assets' section and choose between the installer or the portable version based on your preference.
 
 <br>
 
 ***Disclaimer:** This appliaction requires administrative privileges in order to read hardware temperature data. Since this application is new, it might trigger some antivirus systems. If you prefer, you can review the source code and compile the application yourself.*
-
--->
 
 <br>
 
