@@ -27,7 +27,7 @@ You can download the latest version of StarTray Battery from [GitHub Releases](h
 
 <br>
 
-***Disclaimer:** This appliaction requires administrative privileges in order to read hardware temperature data. Since this application is new, it might trigger some antivirus systems. If you prefer, you can review the source code and compile the application yourself.*
+***Disclaimer:** This appliaction requires administrative privileges in order to read battery data. Since this application is new, it might trigger some antivirus systems. If you prefer, you can review the source code and compile the application yourself.*
 
 <br>
 
