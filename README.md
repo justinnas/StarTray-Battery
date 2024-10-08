@@ -17,7 +17,7 @@
 ## Download
 <div>
   <a href="https://github.com/justinnas/StarTray-Battery/releases/download/v1.2/StarTray-Battery-Setup.exe">
-    <img src="https://github.com/user-attachments/assets/553047bd-3e99-492f-831c-1a580dadea76" alt="Download button" height="80">
+    <img src="https://github.com/user-attachments/assets/365b93d8-9934-4339-b5f4-d121ff574fe3" alt="Download button" height="80">
   </a>
 </div>
 
@@ -34,7 +34,37 @@ You can download the latest version of StarTray Battery from [GitHub Releases](h
 ## Screenshots
 ***The icon can be customized through the themes menu.***
 <div display="flex">
+  <div>
+<strong>White</strong> <br>
+<img src="https://github.com/user-attachments/assets/4116479f-4c0f-4452-a25e-41cdaa74af50" width="50%">
+  </div>
+  <div>
+<i>White (Charging)</i> <br>
+<img src="https://github.com/user-attachments/assets/7a45c2c4-94bc-47cd-a43c-efbfb747c1a5" width="50%">
+  </div>
+    <br>
+  <div>
+    <strong>Dark</strong> <br>
+<img src="https://github.com/user-attachments/assets/c571186e-5942-4446-aa8a-c65080bf91cd" width="50%">
+    </div>
+  <div>
+    <i>Dark (Charging)</i> <br>
+<img src="https://github.com/user-attachments/assets/b4dde101-e94f-475e-850c-396d65198cbb" width="50%">
+    </div>
+    <br>
+  <div>
+    <strong>Blue11</strong> <br>
+<img src="https://github.com/user-attachments/assets/51e0cde0-b3f8-40c5-bb23-0dbaad6017fb" width="50%">
+        </div>
+  <div>
+    <i>Blue11 (Charging)</i> <br>
+<img src="https://github.com/user-attachments/assets/4dc4b72a-42f9-4645-a9d9-b70343023876" width="50%">
+    </div>
 </div>
+
+<br>
+
+The icons also work well with [StarTray Temperature](https://github.com/justinnas/StarTray-Temperature). If you need to monitor your computer's temperatures, check it out!
 
 <br>
 
